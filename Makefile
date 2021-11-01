@@ -6,4 +6,4 @@ all: $(PROG)
 clean distclean:
 	$(RM) $(PROG)
 
-.PHONY: clean distclean
+.PHONY: all clean distclean
